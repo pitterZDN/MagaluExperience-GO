@@ -16,7 +16,7 @@ import com.google.ar.sceneform.ux.TransformableNode;
 public class MainActivity extends AppCompatActivity {
 
     private ArFragment arFragment;
-    private String ASSET_3D = "https://poly.googleusercontent.com/downloads/c/fp/1579086674656172/eEuXH2lCby7/841qa7Bs0Ym/model.gltf";
+    private String ASSET_3D = "https://storage.googleapis.com/squad-vendas-ar/plantaEstranha/model.gltf";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
