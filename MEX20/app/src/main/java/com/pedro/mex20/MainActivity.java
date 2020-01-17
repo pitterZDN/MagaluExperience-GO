@@ -16,7 +16,9 @@ import com.google.ar.sceneform.ux.TransformableNode;
 public class MainActivity extends AppCompatActivity {
 
     private ArFragment arFragment;
-    private String ASSET_3D = "https://storage.googleapis.com/squad-vendas-ar/plantaEstranha/model.gltf";
+    private String ASSET_3D = "https://storage.googleapis.com/squad-vendas-ar/djarea/model.gltf";
+    private int count = 0;
+    private TransformableNode model;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +61,10 @@ public class MainActivity extends AppCompatActivity {
 
         arFragment.getArSceneView().getScene().addChild(anchorNode);
 
-        TransformableNode model = new TransformableNode(arFragment.getTransformationSystem());
+        if(count < 1) {
+            count++;
+            model = new TransformableNode(arFragment.getTransformationSystem());
+        }
         model.setParent(anchorNode);
         model.setRenderable(modelRenderable);
         model.select();
