@@ -1,0 +1,259 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "byteOffset" : 0,
+         "componentType" : 5125,
+         "count" : 858,
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 858,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 858,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 3,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 858,
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 4,
+         "byteOffset" : 0,
+         "componentType" : 5125,
+         "count" : 34368,
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 5,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 34368,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 6,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 34368,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 7,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 34368,
+         "type" : "VEC2"
+      }
+   ],
+   "asset" : {
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 3432,
+         "byteOffset" : 0
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 10296,
+         "byteOffset" : 3432
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 10296,
+         "byteOffset" : 13728
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 6864,
+         "byteOffset" : 24024
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 137472,
+         "byteOffset" : 30888
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 412416,
+         "byteOffset" : 168360
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 412416,
+         "byteOffset" : 580776
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 274944,
+         "byteOffset" : 993192
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 1268136,
+         "uri" : "model.bin"
+      }
+   ],
+   "images" : [
+      {
+         "uri" : "bpng.jpg"
+      },
+      {
+         "uri" : "bpng_NRM_Kopie.jpg"
+      },
+      {
+         "uri" : "Pot_textures_col.jpg"
+      },
+      {
+         "uri" : "Pot_textures_nor.png"
+      }
+   ],
+   "materials" : [
+      {
+         "name" : "Blatt",
+         "normalTexture" : {
+            "index" : 1,
+            "texCoord" : 0
+         },
+         "pbrMetallicRoughness" : {
+            "baseColorTexture" : {
+               "index" : 0,
+               "texCoord" : 0
+            }
+         }
+      },
+      {
+         "name" : "Material",
+         "normalTexture" : {
+            "index" : 3,
+            "texCoord" : 0
+         },
+         "pbrMetallicRoughness" : {
+            "baseColorTexture" : {
+               "index" : 2,
+               "texCoord" : 0
+            }
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1,
+                  "TEXCOORD_0" : 3
+               },
+               "indices" : 0,
+               "material" : 0,
+               "mode" : 4
+            }
+         ]
+      },
+      {
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 6,
+                  "POSITION" : 5,
+                  "TEXCOORD_0" : 7
+               },
+               "indices" : 4,
+               "material" : 1,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "children" : [ 1, 3 ],
+         "name" : "RootNode",
+         "rotation" : [ 0, 0, 0, 1 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "children" : [ 2 ],
+         "name" : "Low-Poly Plant_.001",
+         "rotation" : [ -0.7071068387877038, 0, 0, 0.7071067235853865 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "mesh" : 0,
+         "rotation" : [ 0, 0, 0, 1 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "children" : [ 4 ],
+         "name" : "Low-Poly Plant_",
+         "rotation" : [ -0.7071068387877038, 0, 0, 0.7071067235853865 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "mesh" : 1,
+         "rotation" : [ 0, 0, 0, 1 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      }
+   ],
+   "samplers" : [
+      {
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      },
+      {
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      },
+      {
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      },
+      {
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      }
+   ],
+   "scenes" : [
+      {
+         "nodes" : [ 0 ]
+      }
+   ],
+   "textures" : [
+      {
+         "sampler" : 0,
+         "source" : 0
+      },
+      {
+         "sampler" : 1,
+         "source" : 1
+      },
+      {
+         "sampler" : 2,
+         "source" : 2
+      },
+      {
+         "sampler" : 3,
+         "source" : 3
+      }
+   ]
+}

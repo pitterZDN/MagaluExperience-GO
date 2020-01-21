@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="strangersdk_colorPrimary">#0182cd</color>
+    <!-- PROGRESSBAR COLOR -->
+    <color name="color_bar_yellow_light">#ffff4a</color>
+    <color name="color_bar_yellow_dark">#fcd000</color>
+    <color name="color_bar_orange_light">#ffc112</color>
+    <color name="color_bar_orange_dark">#ff8a00</color>
+    <color name="color_bar_red_light">#ff5f5f</color>
+    <color name="color_bar_red_dark">#ff253a</color>
+    <color name="color_bar_pink_dark">#ff37a8</color>
+    <color name="color_bar_pink_light">#ff7ae7</color>
+    <color name="color_bar_purple_light">#c739ff</color>
+    <color name="color_bar_purple_dark">#a400e1</color>
+    <color name="color_bar_blue_dark">#0086ff</color>
+    <color name="color_bar_blue_light">#2eceff</color>
+    <color name="color_bar_green_light">#72f772</color>
+    <color name="color_bar_green_dark">#00d604</color>
+    <!-- ARRAY FOR PROGRESSBAR COLOR -->
+    <integer-array name="strangersdk_colors">
+        <item>@color/color_bar_yellow_light</item>
+        <item>@color/color_bar_yellow_dark</item>
+        <item>@color/color_bar_orange_light</item>
+        <item>@color/color_bar_orange_dark</item>
+        <item>@color/color_bar_red_light</item>
+        <item>@color/color_bar_red_dark</item>
+        <item>@color/color_bar_pink_dark</item>
+        <item>@color/color_bar_pink_light</item>
+        <item>@color/color_bar_purple_light</item>
+        <item>@color/color_bar_purple_dark</item>
+        <item>@color/color_bar_blue_dark</item>
+        <item>@color/color_bar_blue_light</item>
+        <item>@color/color_bar_green_light</item>
+        <item>@color/color_bar_green_dark</item>
+    </integer-array>
+</resources>
