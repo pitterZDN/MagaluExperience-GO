@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="@dimen/strangersdk_dialog_how_to_use_width"
+    android:layout_gravity="center"
+    android:background="@drawable/modalstyle"
+    android:padding="@dimen/strangersdk_dialog_how_to_use_padding"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/strangersdk_dialog_how_to_use_text_view_title_margin_top"
+        android:gravity="center"
+        android:paddingBottom="@dimen/strangersdk_dialog_how_to_use_text_view_title_margin_bottom"
+        android:text="@string/strangersdk_how_to_use_dialog_text_title"
+        android:textColor="@color/strangersdk_gray"
+        android:textSize="@dimen/strangersdk_dialog_how_to_use_text_view_title_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/strangersdk_dialog_how_to_use_image_view_height"
+        android:layout_marginTop="@dimen/strangersdk_dialog_how_to_use_image_view_margin_top"
+        android:paddingBottom="@dimen/strangersdk_dialog_how_to_use_image_view_padding_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_how_to_use" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/strangersdk_dialog_how_to_use_text_view_description_height"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/strangersdk_dialog_how_to_use_text_view_description_padding_bottom"
+        android:text="@string/strangersdk_how_to_use_dialog_text_description"
+        android:textAlignment="center"
+        android:textColor="@color/strangersdk_gray"
+        android:textSize="@dimen/strangersdk_dialog_how_to_use_text_view_description_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <Button
+        android:id="@+id/buttonCloseModal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/strangersdk_dialog_how_to_use_button_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/strangersdk_dialog_how_to_use_button_margin_top"
+        android:background="@drawable/buttonmodal"
+        android:paddingStart="@dimen/strangersdk_dialog_how_to_use_button_padding_left"
+        android:paddingEnd="@dimen/strangersdk_dialog_how_to_use_button_padding_right"
+        android:text="@string/strangersdk_how_to_use_dialog_text_button"
+        android:textColor="@color/strangersdk_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

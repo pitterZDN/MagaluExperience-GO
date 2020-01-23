@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">strangersdk</string>
+    <string name="app_name">Stranger SDK</string>
+    <string name="strangersdk_how_to_use_dialog_text_title">Como Usar?</string>
+    <string name="strangersdk_how_to_use_dialog_text_description">Aponte a câmera para uma superfície sólida. \n \n Gire o marcador para visualizar as diferentes informações disponíveis</string>
+    <string name="strangersdk_how_to_use_dialog_text_button">Entendi</string>
+<!--    <string name="strag"-->
 </resources>

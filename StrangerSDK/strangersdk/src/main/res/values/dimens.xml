@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dialog How To Use -->
+    <dimen name="strangersdk_dialog_how_to_use_width">300dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_padding">20dp</dimen>
+
+    <!-- Dialog How To Use Title -->
+    <dimen name="strangersdk_dialog_how_to_use_text_view_title_size">25sp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_text_view_title_margin_top">20dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_text_view_title_margin_bottom">20dp</dimen>
+
+    <!-- Dialog How To Use Image View -->
+    <dimen name="strangersdk_dialog_how_to_use_image_view_height">147dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_image_view_margin_top">10dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_image_view_padding_bottom">28dp</dimen>
+
+    <!-- Dialog How To Use Text Description -->
+    <dimen name="strangersdk_dialog_how_to_use_text_view_description_height">168dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_text_view_description_padding_bottom">5dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_text_view_description_text_size">16sp</dimen>
+
+    <!-- Dialog How To Use Button -->
+    <dimen name="strangersdk_dialog_how_to_use_button_height">40dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_button_margin_top">15dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_button_padding_left">20dp</dimen>
+    <dimen name="strangersdk_dialog_how_to_use_button_padding_right">20dp</dimen>
+
+</resources>

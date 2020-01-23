@@ -16,7 +16,12 @@ import com.google.ar.sceneform.ux.TransformableNode;
 public class MainActivity extends AppCompatActivity {
 
     private ArFragment arFragment; //Recupera o ArFragment.
-    private String ASSET_3D = "https://storage.googleapis.com/squad-vendas-ar/001/boxwood_plant.gltf"; //Link do modelo em GLTF2.
+
+    private String ID_PRODUCT = "JLD7252701-135800";
+    private String ASSET_3D = "https://storage.googleapis.com/squad-vendas-ar/"+ ID_PRODUCT +"/model.gltf";
+    private String ASSET_3DA = "https://storage.googleapis.com/squad-vendas-ar/JLD7252701-135800/model.gltf";
+
+
     private int count = 0; //Contador de modelos já em cena.
     private TransformableNode model; //Modelo final com característica de transformação.
     private ModelRenderable modelRenderable; //Modelo renderizado bruto.
@@ -26,8 +31,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         //Inicia uma cena de realidade aumentada.
         arFragment = (ArFragment) getSupportFragmentManager().findFragmentById(R.id.uxFragment);
+
+
         loadModel();
 
         //Identifica em qual localização do plano encontrado foi clicado.
@@ -48,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                         this,
                         RenderableSource
                         .builder()
-                        .setSource(this, Uri.parse(ASSET_3D), RenderableSource.SourceType.GLTF2)
+                        .setSource(this, Uri.parse(ASSET_3DA), RenderableSource.SourceType.GLTF2)
                         .setRecenterMode(RenderableSource.RecenterMode.ROOT)
                         .build()
                 )
@@ -78,4 +87,5 @@ public class MainActivity extends AppCompatActivity {
         model.setRenderable(modelRenderable);
         model.select();
     }
+
 }

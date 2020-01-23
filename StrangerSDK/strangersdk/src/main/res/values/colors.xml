@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="strangersdk_colorPrimary">#0182cd</color>
+    <color name="strangersdk_gray_dark">#3D3D3D</color>
+    <color name="strangersdk_white">#FFFFFF</color>
+    <color name="strangersdk_gray">#404040</color>
     <!-- PROGRESSBAR COLOR -->
     <color name="color_bar_yellow_light">#ffff4a</color>
     <color name="color_bar_yellow_dark">#fcd000</color>

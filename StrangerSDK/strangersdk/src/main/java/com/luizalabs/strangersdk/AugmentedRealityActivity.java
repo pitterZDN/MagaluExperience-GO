@@ -1,9 +1,14 @@
 package com.luizalabs.strangersdk;
 
+import android.app.Dialog;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
 
 import com.luizalabs.strangersdk.shared.base.ActivityBase;
@@ -21,8 +26,15 @@ public class AugmentedRealityActivity extends ActivityBase {
         setContentView(R.layout.strangersdk_activity_augmented_reality);
         getExtras(getIntent().getExtras());
         createToolbar();
+        showHowToUseDialog();
 
     }
+
+    private void showHowToUseDialog() {
+        HowToUseDialog dialog = new HowToUseDialog(this, R.style.DialogActionSheetTheme);
+        dialog.show();
+    }
+
 
     private void getExtras(Bundle extras){
         compositeCode = extras.getString(EXTRA_COMPOSITE_CODE);
@@ -38,5 +50,8 @@ public class AugmentedRealityActivity extends ActivityBase {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
     }
+
+
+
 
 }

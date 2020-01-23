@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "357669632760",
+    "firebase_url": "https://stranger-1901d.firebaseio.com",
+    "project_id": "stranger-1901d",
+    "storage_bucket": "stranger-1901d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357669632760:android:4dd4f44b2122aac04f190d",
+        "android_client_info": {
+          "package_name": "com.pedro.mex20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357669632760-5ln065j749c1nbaslpidohqndebdnuep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYzsyRISk_ebTv2Ja5rNVVN1ppdXXoNyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357669632760-5ln065j749c1nbaslpidohqndebdnuep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
